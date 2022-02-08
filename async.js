@@ -76,7 +76,7 @@ const myAsyncFunction = async () => { /*the code here will be executed in a asyn
 // Inside the async function we can use the `await` keyword. 
 // This will make the code doesn't continue executing the next senteces 
 // until the call we make inside the function has not finished.
-async() => {
+const otherAsyncFunction = async() => {
   try {
     const user1response = await fetch('https://jsonplaceholder.typicode.com/users/1');
     const user = await user1response.json();
